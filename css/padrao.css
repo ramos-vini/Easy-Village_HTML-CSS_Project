@@ -1,0 +1,145 @@
+/* CSS Padrão */
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Header */
+
+.cheader {
+    background-color: white;
+    padding: 20px;
+}
+
+h2.clogo {
+    font-family: 'Black Han Sans', sans-serif;
+    color: #276678;
+    margin-right: 96px;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+.cnav {
+    display: inline-block;
+}
+
+.cnavleft {
+    display: inline-block;
+}
+
+.cnavright {
+    display: inline-block;
+    position: relative;
+    left: 412px;
+}
+
+.cnavitem {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.clinknav {
+    text-decoration: none;
+    color: #1687A7;
+}
+
+.clinknav:hover {
+    color: #276678;
+    font-weight: bold;
+}
+
+/* CSS Botão */
+
+.cbutton {
+    padding: 12px;
+    background-color: #276678;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.cbutton:hover {
+    background-color: #164f5f;
+    cursor: pointer;
+}
+
+/* CSS Footer */
+
+.cfooter {
+    background-color: #D3E0EA;
+    padding: 40px;
+    text-align: center;
+}
+
+.cdivfooter1 {
+    display: inline-block;
+    position: relative;
+    top: -39px;
+    margin-right: 80px;
+}
+
+.cdivfooter2 {
+    display: inline-block;
+    position: relative;
+    top: -73px;
+    margin-right: 80px;
+}
+
+.cdivfooter3 {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.ch4footer {
+    color: #276678;
+    margin-bottom: 20px;
+}
+
+.csecfooter {
+    margin-bottom: 10px;
+}
+
+.cimgredessociais {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.cimgredessociais:hover {
+    opacity: 80%;
+}
+
+.cimgbaixar {
+    width: 180px;
+}
+
+.cimgbaixar:hover {
+    opacity: 80%;
+}
+
+.cdivlogofooter {
+    text-align: center;
+}
+
+/* Font-size */
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.5;
+}

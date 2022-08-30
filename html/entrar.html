@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/padrao.css">
+    <style>
+        /* CSS Interno */
+        main {
+            background-color: #1687A7;
+            padding-right: 120px;
+            padding-left: 120px;
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+
+        form {
+            background-color: white;
+            width: 40%;
+            margin: auto;
+            padding-right: 80px;
+            padding-left: 80px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-radius: 6px;
+        }
+
+        .cwelcome {
+            text-align: center;
+            margin-bottom: 60px;
+            color: #276678
+        }
+
+        .clabel {
+            display: block;
+            color: gray;
+        }
+
+        .cinput {
+            display: block;
+            margin: auto;
+            width: 100%;
+            padding: 6px;
+            border: none;
+            border-bottom: gray dotted 1px;
+            margin-bottom: 40px;
+            resize: none;
+            color: #164f5f;
+        }
+
+        .cinput:focus {
+            outline: none;
+        }
+
+        .csubmit {
+            display: block;
+            padding: 12px;
+            color: gray;
+            background-color: #D3E0EA;
+            border: 1px solid gray;
+            border-radius: 6px;
+            width: 100%;
+            height: 60px;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .csubmit:hover {
+            opacity: 85%;
+            cursor: pointer;
+        }
+
+        .cforgot {
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            color: #1687A7;
+        }
+
+        .cforgot:hover {
+            color: #164f5f
+        }
+
+        audio {
+            visibility: hidden;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cheader">
+        <div class="cnav">
+            <a class="clinknav" href="index.html">
+                <h2 class="clogo">Easy Village</h2>
+            </a>
+        </div>
+        <nav class="cnav">
+            <div class="cnavleft">
+                <section class="cnavitem"><a class="clinknav" href="index.html">Página Inicial</a></section>
+                <section class="cnavitem"><a class="clinknav" href="sobre.html">Sobre</a></section>
+                <section class="cnavitem"><a class="clinknav" href="contato.html">Contato</a></section>
+            </div>
+            <div class="cnavright">
+                <section class="cnavitem"><a class="clinknav" href="entrar.html"><b>Entrar</b></a></section>
+                <section class="cnavitem"><a href="registrar.html"><input type="button" value="Registrar"
+                            class="cbutton"></a>
+                </section>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <h3 class="cwelcome">Seja bem-vindo(a) de volta</h3>
+            <label class="clabel" for="iemail">E-mail</label>
+            <input class="cinput" id="iemail" type="email" name="email" required>
+            <label class="clabel" for="isenha">Senha</label>
+            <input class="cinput" id="isenha" type="password" name="senha" required>
+            <input class="csubmit" type="submit" value="Iniciar Sessão">
+            <a class="cforgot" href="">Esqueceu a senha?</a>
+        </form>
+        <audio src="../audios/song.mp3" controls autoplay loop></audio>
+    </main>
+    <footer class="cfooter">
+        <div class="cdivfooter1">
+            <h4 class="ch4footer">Continue Navegando</h4>
+            <section class="csecfooter"><a class="clinknav" href="index.html">Página Inicial</a></section>
+            <section class="csecfooter"><a class="clinknav" href="sobre.html">Sobre</a></section>
+            <section class="csecfooter"><a class="clinknav" href="contato.html">Contato</a></section>
+        </div>
+        <div class="cdivfooter2">
+            <h4 class="ch4footer">Siga-nos nas Redes Sociais</h4>
+            <span><a target="_blank" href=""><img class="cimgredessociais" src="../imagens/instagram.png"
+                        alt=""></a></span>
+            <span><a target="_blank" href=""><img class="cimgredessociais" src="../imagens/facebook.png" alt=""
+                        style="border-radius: 6px;"></a></span>
+            <span><a target="_blank" href=""><img class="cimgredessociais" src="../imagens/linkedin.png" alt=""></a></span>
+        </div>
+        <div class="cdivfooter3">
+            <h4 class="ch4footer">Baixe nosso App</h4>
+            <section class="csecfooter"><a target="_blank" href=""><img class="cimgbaixar" src="../imagens/appstore.png"
+                        alt=""></a></section>
+            <section><a target="_blank" href=""><img class="cimgbaixar" src="../imagens/googleplay.png" alt=""></a>
+            </section>
+        </div>
+        <div class="cdivlogofooter">
+            <br>
+            <hr style="width: 90%; margin: auto;">
+            <br>
+            <p style="color:gray;">Easy Village &copy 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>

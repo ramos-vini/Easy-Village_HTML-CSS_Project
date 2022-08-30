@@ -1,0 +1,114 @@
+.cmain1 {
+    text-align: center;
+    background-image: url(../imagens/familia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    height: 400px;
+}
+
+.ch1shadow {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    transition: 2s;
+}
+
+.cmain1:hover .ch1shadow {
+    font-size: 51px;
+    transition: 2s;
+}
+
+.ch4shadow {
+    color: #D3E0EA;
+    text-shadow: 0px 0px 3px black;
+}
+
+.cmain2 {
+    background-color: #276678;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+}
+
+td {
+    width: 30%;
+}
+
+.ch1white {
+    color: white;
+}
+
+.ch1white:hover {
+    text-shadow: 0px 0px 3px white;
+}
+
+.ch4white {
+    color: #D3E0EA;
+}
+
+.cmain3 {
+    padding: 80px;
+    text-align: center;
+}
+
+.ctitle {
+    color: #276678;
+    margin-bottom: 40px;
+}
+
+.ctext {
+    color: #1687A7;
+    line-height: 2.0;
+}
+
+.cmain4 {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+video {
+    width: 60%;
+    border-radius: 6px;
+    border: #D3E0EA 3px solid;
+}
+
+video:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #1687A7
+}
+
+.cmain5 {
+    padding: 80px;
+    text-align: center;
+}
+
+.cmain5sec1 {
+    margin-bottom: 0px;
+}
+
+.cmain5sec2 {
+    background-color: #D3E0EA;
+    width: 40%;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 60px;
+}
+
+strong {
+    color: #276678;
+}
+
+.cmain5sec2:hover {
+    box-shadow: 0px 0px 8px #1687A7
+}
+
+.cmain6 {
+    text-align: center;
+    background-color: #1687A7;
+}

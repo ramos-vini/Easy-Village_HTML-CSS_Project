@@ -1,0 +1,183 @@
+.cmaindiv1 {
+    background-color: #1687A7;
+}
+
+.c1div1 {
+    display: inline-block;
+    max-width: 50%;
+    padding: 40px;
+}
+
+.ch1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.cinputtext {
+    background-color: white;
+    border: 0px;
+    border-radius: 6px;
+    padding: 12px;
+    width: 40%;
+    color: gray;
+    margin-right: 20px;
+}
+
+.cinputtext:focus {
+    outline: none;
+}
+
+#isaibamais {
+    width: 25%;
+}
+
+.c1div2 {
+    display: inline-block;
+    width: 40%;
+}
+
+.cimg1 {
+    width: 85%;
+    border-radius: 6px;
+    position: relative;
+    top: 12px;
+    right: -80px;
+}
+
+.c1div3 {
+    padding: 40px;
+}
+
+.c1subdiv3 {
+    display: inline-table;
+    color: white;
+    margin-right: 40px;
+    width: 29%;
+}
+
+.cmaindiv2 {
+    background-color: white;
+    padding: 40px;
+}
+
+.ctitle,
+.csubtitle {
+    color: #276678;
+    margin-bottom: 10px;
+}
+
+.cspan2bg:hover {
+    background-color: #D3E0EA;
+}
+
+.c2section:hover .csubtitle {
+    text-shadow: 1px 1px 1px #000000
+}
+
+.ctexttitle {
+    color: #1687A7;
+    margin-bottom: 60px;
+}
+
+.ctext {
+    color: #1687A7;
+    margin-bottom: 60px;
+}
+
+.c2section:hover .ctext {
+    color: #276678
+}
+
+.cicon {
+    margin-right: 5px;
+}
+
+.c2div1 {
+    width: 45%;
+    display: inline-block;
+}
+
+.c2div2 {
+    width: 54%;
+    display: inline-block;
+}
+
+.c2span1 {
+    float: left;
+    width: 15%;
+    margin-bottom: 90px;
+}
+
+.c2span2 {
+    float: right;
+    width: 85%;
+}
+
+#icomeceagora {
+    width: 15%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #E7E7E7;
+    color: #3E3B56;
+    border: #3E3B56 1px dashed;
+    position: absolute;
+    left: 895px;
+    top: 1085px;
+}
+
+#icomeceagora:hover {
+    background-color: #c7c7c7;
+    border-style: solid;
+}
+
+.c2div3 {
+    margin-top: 50px;
+}
+
+.c2div3sec {
+    background-color: #D3E0EA;
+    border-radius: 6px;
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.cimgc2div3 {
+    width: 100%;
+    border-radius: 6px;
+}
+
+#iimgorganizacao {
+    margin-top: -30px;
+}
+
+#ititle2 {
+    margin-bottom: 50px;
+}
+
+.c2div3sec:hover .cimgc2div3 {
+    box-shadow: 0px 0px 10px #1687A7;
+}
+
+.c2div3sec:hover .csubtitle {
+    color: #1687A7;
+    text-shadow: 0px 0px 2px #276678;
+}
+
+.c2div3sec:hover .ctext {
+    color: #276678;
+}
+
+.cmaindiv3 {
+    background-color: #1687A7;
+    padding: 90px;
+    text-align: center;
+}
+
+#ireceba {
+    color: white;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,80 @@
+.cmain1 {
+    background-color: #1687A7;
+    color: white;
+    padding-left: 40px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.cmain2,
+.cmain3 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cmain2sec {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+
+.ctitle {
+    color: #276678;
+    margin-bottom: 20px;
+}
+
+.cmain2sec:hover .ctext2 {
+    text-shadow: 0px 0px 1px #1687A7;
+}
+
+.ctext {
+    color: #1687A7;
+    margin-bottom: 20px;
+}
+
+.ctext2 {
+    color: #276678;
+    margin-bottom: 80px;
+}
+
+.cmain3 {
+    text-align: center;
+}
+
+form {
+    background-color: #1687A7;
+    width: 40%;
+    margin: auto;
+    padding: 80px;
+    border-radius: 6px;
+}
+
+.cinput {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+    resize: none;
+    color: #164f5f;
+}
+
+.cinput:focus,
+.cinput:valid {
+    outline: none;
+    opacity: 90%;
+}
+
+#ienviar {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#ifaleconosco {
+    margin-bottom: 40px;
+}
