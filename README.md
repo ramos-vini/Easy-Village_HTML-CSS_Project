@@ -7,6 +7,6 @@ Main Technologies used:
 
 - Visual Studio Code;
 - HTML5;
-- CSS3;
+- CSS3.
 
 PS: This is a non-responsive 1366 x 768 screen resolution web project.
